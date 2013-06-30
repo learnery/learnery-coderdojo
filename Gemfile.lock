@@ -275,16 +275,23 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  capybara
+  capybara_minitest_spec
   coffee-rails (~> 4.0.0)
+  database_cleaner
+  factory_girl_rails
   heroku-headless!
   jbuilder (~> 1.2)
   jquery-rails
+  launchy
   learnery!
   learnerydeploy!
+  minitest-spec-rails
   pg
   rails (= 4.0.0)
   rails3_serve_static_assets!
   rails_log_stdout!
+  rake
   sass-rails (~> 4.0.0)
   sdoc
   sqlite3

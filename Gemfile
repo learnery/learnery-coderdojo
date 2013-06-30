@@ -33,6 +33,17 @@ group :production do #heroku
 end
 
 
+group :test do
+  gem 'rake' # for travis, see http://about.travis-ci.org/docs/user/languages/ruby/
+  gem 'minitest-spec-rails'
+  gem 'capybara'
+  gem 'capybara_minitest_spec'
+  gem 'database_cleaner'
+  gem 'launchy'
+  gem 'factory_girl_rails'
+end
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
