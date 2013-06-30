@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+ source 'https://rubygems.org'
 
 # dependency to learnery
 # uses local learnery if LEARNERY_LOCAL is set, e.g. with
@@ -29,6 +29,7 @@ group :production do #heroku
   gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
   # postgres for heroku
   gem 'pg'
+  gem 'therubyracer', platforms: :ruby
 end
 
 
