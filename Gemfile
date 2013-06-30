@@ -12,11 +12,33 @@ else
                   :branch => 'engine'
 end
 
+# for travis deployment to heroku
+# added here because .gemspec does not support depending on git versions
+#http://stackoverflow.com/questions/6499410/ruby-gemspec-dependency-is-possible-have-a-git-branch-dependency
+  # forked for now because we need this:
+  # https://github.com/learnery/heroku-headless/commit/b5179227c710ac84e871b91699fd0fc355d43b28
+
+group :development, :test do
+  gem 'heroku-headless', github: 'drblinken/heroku-headless'
+  gem 'learnerydeploy',  github: 'learnery/deployment'
+end
+group :production do #heroku
+  # to enable static asset serving for rails4 on heroku
+  # https://devcenter.heroku.com/articles/rails4
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+  # postgres for heroku
+  gem 'pg'
+end
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
