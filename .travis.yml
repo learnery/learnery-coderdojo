@@ -5,9 +5,9 @@ rvm:
 env:
   global:
   - secure: |-
-      JpT5DR1eHjgt6v9W3/CbD0WrWJ5bQaiS6hxjiyRuZFml76nTkLeJsC9333eq
-      kUPQDWPCqaDwnOe4qBvg8zMwVGPtBxDBbfu3AHNwQOfRIPqnfpOIJ59rXebT
-      bFrX28dEy1G4w+mHwGZVHrchKlGDEXBt3zGJRMhkzL538ccRDjk=
+      afqw48eSUGZRmDvuNO2WfBelbzxgAPw1QBxRrRmsJuHQDFUV9tySvQicDG1B
+      aciAatIa9rGhlcDnElkNkGwQluxnUcRH2w5xCvVNhy8HzBMrd8IAD35xaGj9
+      OR7GOSgsF3/vlPYuxsvVBWd7f0DIoO5HBzvPD4B7EH5puBv8YJg=
 script:
 - rake
 - bundle exec rake learnery:deploy
