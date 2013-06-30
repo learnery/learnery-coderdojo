@@ -1,5 +1,17 @@
 source 'https://rubygems.org'
 
+# dependency to learnery
+# uses local learnery if LEARNERY_LOCAL is set, e.g. with
+# export LEARNERY_LOCAL=../learnery-engine
+# please make sure to commit/push Gemfile.lock with reference
+# to github rather than local file!
+if ENV['LEARNERY_LOCAL']
+  gem 'learnery', :path => ENV['LEARNERY_LOCAL']
+else
+  gem 'learnery', :git => 'git://github.com/learnery/learnery.git',
+                  :branch => 'engine'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
