@@ -1,21 +1,32 @@
-## Learnery
+## Lernerei
 
-Learnery is a rails app you can use to organize open learning events, 
-like railsbridge, barcamps, user groups, meetups, hackathons. 
+Eine Rails Engine die Dir hilft Dein offenes Lern-Event wie 
+railsgirls, computerclub, barcamp zu veranstalten.
 
-You can adapt the theme to your liking 
-and deploy the app to heroku in a few simple steps.
+Dies ist die "Host-App", die Ruby on Rails App die du
+selber erweiterst und an Deine Bedürfnisse anpasst.
+Diese App verwenden Learnery als Rails Eingen.
 
-### This Site
+Du kannst die App mit wenigen einfachen Schritten auf heroku veröffentlichen.
 
-Look at the URL of this site: http://learnery-staging.herokuapp.com/ is it the official demo
-site of Learnery.
+### Diese Website
 
-Do you see a differnt URL?  Then this is some 
-installation of learnery, with the default theme
-and the default static pages that come with it.
+Schau auf die URL dieser Website:
 
-### Try it now
+http://learnery-staging-coderdojo.herokuapp.com/
 
-You can downlod Learnery from https://github.com/learnery/learnery
+ist die offizielle Demo-Seite dieser App.
+
+Siehst Du eine andere URL? Dann hat jemand seine
+eigene Installation gemacht, und den 
+Text auf diese Seite noch nicht angepasst.
+
+### Dieses "Theme"
+
+Diese Rails App ist für eine Veranstaltung mit Kindern gemacht.
+(Wenn Du es benutzt: bitte ersetze zuerst die Bilder in in ./app/assets/images/)
+
+### Selber ausprobieren
+
+Du kannst Lernerei runterladen von https://github.com/learnery/
 
