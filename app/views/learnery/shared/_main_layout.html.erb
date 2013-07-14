@@ -11,9 +11,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </a>
-              <% site_name =  "CoderDojo Learnery"
-                 site_description = "another example rails app that uses the learnery engine"
-              %>
+          <% site_name =  render 'learnery/theme/site_name'
+             site_description = render 'learnery/theme/site_description' %>
               <%= link_to site_name, learnery.root_path, class: "brand", title: site_description %>
               <div class="container-fluid nav-collapse">
                 <ul class="nav">

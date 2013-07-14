@@ -5,7 +5,7 @@ railsgirls, computerclub, barcamp zu veranstalten.
 
 Dies ist die "Host-App", die Ruby on Rails App die du
 selber erweiterst und an Deine Bedürfnisse anpasst.
-Diese App verwenden Learnery als Rails Eingen.
+Diese App verwenden Learnery als Rails Engine.
 
 Du kannst die App mit wenigen einfachen Schritten auf heroku veröffentlichen.
 
