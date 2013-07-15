@@ -8,8 +8,7 @@
 if ENV['LEARNERY_LOCAL']
   gem 'learnery', :path => ENV['LEARNERY_LOCAL']
 else
-  gem 'learnery', :git => 'git://github.com/learnery/learnery.git',
-                  :branch => 'engine'
+  gem 'learnery', :git => 'git://github.com/learnery/learnery.git'
 end
 
 # for travis deployment to heroku
@@ -19,7 +18,7 @@ end
   # https://github.com/learnery/heroku-headless/commit/b5179227c710ac84e871b91699fd0fc355d43b28
 
 group :development, :test do
-  gem 'heroku-headless', github: 'drblinken/heroku-headless'
+  gem 'heroku-headless', github: 'learnery/heroku-headless'
   gem 'learnerydeploy',  github: 'learnery/deployment'
 end
 group :production do #heroku

@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/drblinken/heroku-headless.git
-  revision: c55d729fe51691dd5f7beae1b1b02a97e5dcafe7
-  specs:
-    heroku-headless (0.2.0)
-      heroku-api
-      rendezvous
-
-GIT
   remote: git://github.com/heroku/rails3_serve_static_assets.git
   revision: 84910ceb4ca2851d650e66d3b22f5008acf253f8
   specs:
@@ -25,9 +17,16 @@ GIT
     learnerydeploy (0.0.1)
 
 GIT
+  remote: git://github.com/learnery/heroku-headless.git
+  revision: 2de9dd1f47b611ea5720ba0458d95a3e269062b0
+  specs:
+    heroku-headless (0.2.0)
+      heroku-api
+      rendezvous
+
+GIT
   remote: git://github.com/learnery/learnery.git
-  revision: 60207dd2b4608455f97ca5f5f3dbccab44cd2f87
-  branch: engine
+  revision: 2cba7de2bf7f17fd2d718e0cb3e4b43fcde6f685
   specs:
     learnery (0.0.1)
       capybara
