@@ -8,7 +8,7 @@
 if ENV['LEARNERY_LOCAL']
   gem 'learnery', :path => ENV['LEARNERY_LOCAL']
 else
-  gem 'learnery', :git => 'git://github.com/learnery/learnery.git'
+  gem 'learnery', :git => 'git://github.com/learnery/learnery.git', ref: 'dc40df106f7970634fbcb6aed31ced4f1800a45a'
 end
 
 # for travis deployment to heroku
