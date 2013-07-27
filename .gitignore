@@ -14,3 +14,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+# ignore the rvm version files, as we
+# want an easy entry for new developers
+.ruby-version
+.ruby-gemset
