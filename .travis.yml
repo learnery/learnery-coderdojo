@@ -2,12 +2,13 @@
 language: ruby
 rvm:
 - 2.0.0
-env:
-  global:
-  - secure: |-
-      afqw48eSUGZRmDvuNO2WfBelbzxgAPw1QBxRrRmsJuHQDFUV9tySvQicDG1B
-      aciAatIa9rGhlcDnElkNkGwQluxnUcRH2w5xCvVNhy8HzBMrd8IAD35xaGj9
-      OR7GOSgsF3/vlPYuxsvVBWd7f0DIoO5HBzvPD4B7EH5puBv8YJg=
 script:
 - rake
-- bundle exec rake learnery:deploy
+after_success:
+- rake learnery:deploy["learnery-staging"]
+env:
+  global:
+    secure: |-
+      gOe+vayAsMD5UdQorwBhVXC1nCskkwHJIF0I+Rm2hDme2IwwHPhA/ty3Sk3D
+      jG5PXSqR6QEYe8U7INmxUFx7Leoj/fcQ8us8WNNeNndmrKBdR9+iwRkwhYbw
+      dhFRqjE/1+E/klVSMyZyVa10OGUcQayVVpwjq/b+56Kxy4h95A4=
