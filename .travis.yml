@@ -5,7 +5,7 @@ rvm:
 script:
 - rake
 after_success:
-- rake learnery:deploy["learnery-staging"]
+- rake learnery:deploy["learnery-staging-coderdojo"]
 env:
   global:
     secure: |-
