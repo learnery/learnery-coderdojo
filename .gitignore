@@ -18,3 +18,6 @@
 # want an easy entry for new developers
 .ruby-version
 .ruby-gemset
+
+# ignore vendor/bundle to avoid push of all gems from travis to heroku :-/
+/vendor/bundle
