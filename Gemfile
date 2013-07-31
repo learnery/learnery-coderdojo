@@ -22,7 +22,7 @@ group :development, :test do
   if ENV['DEPLOYMENT_LOCAL']
     gem 'learnerydeploy', :path => ENV['DEPLOYMENT_LOCAL']
   else
-    gem 'learnerydeploy', :git => 'git://github.com/learnery/deployment.git', ref: '270fcb95ddcab0902a7b68972f637a4944cb527e'
+    gem 'learnerydeploy', :git => 'git://github.com/learnery/deployment.git', ref: '0cb08124440e0e4a27ba4030d15d76e095199751'
   end
 end
 group :production do #heroku

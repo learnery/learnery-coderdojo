@@ -11,6 +11,13 @@ GIT
     rails_log_stdout (0.0.1)
 
 GIT
+  remote: git://github.com/learnery/deployment.git
+  revision: 0cb08124440e0e4a27ba4030d15d76e095199751
+  ref: 0cb08124440e0e4a27ba4030d15d76e095199751
+  specs:
+    learnerydeploy (0.0.1)
+
+GIT
   remote: git://github.com/learnery/learnery.git
   revision: 09a1c7dbb76759d50c8255d54cbe75c6b41b6cab
   ref: 09a1c7dbb76759d50c8255d54cbe75c6b41b6cab
@@ -43,11 +50,6 @@ GIT
       turbolinks
       twitter-bootstrap-rails
       uglifier (>= 1.3.0)
-
-PATH
-  remote: ../deployment/
-  specs:
-    learnerydeploy (0.0.1)
 
 GEM
   remote: https://rubygems.org/
