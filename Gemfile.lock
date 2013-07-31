@@ -12,7 +12,8 @@ GIT
 
 GIT
   remote: git://github.com/learnery/deployment.git
-  revision: 5ad55fda08d847fa1cbc8effb1ebbd93b68c2bb8
+  revision: 270fcb95ddcab0902a7b68972f637a4944cb527e
+  ref: 270fcb95ddcab0902a7b68972f637a4944cb527e
   specs:
     learnerydeploy (0.0.1)
 
@@ -26,8 +27,8 @@ GIT
 
 GIT
   remote: git://github.com/learnery/learnery.git
-  revision: 
-  ref: 
+  revision: 86b4fb4fa46295ae8ba3d7bd3b2f9b57991ce236
+  ref: 86b4fb4fa46295ae8ba3d7bd3b2f9b57991ce236
   specs:
     learnery (0.0.1)
       capybara

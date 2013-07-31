@@ -8,7 +8,7 @@
 if ENV['LEARNERY_LOCAL']
   gem 'learnery', :path => ENV['LEARNERY_LOCAL']
 else
-  gem 'learnery', :git => 'git://github.com/learnery/learnery.git', ref: '270fcb95ddcab0902a7b68972f637a4944cb527e'
+  gem 'learnery', :git => 'git://github.com/learnery/learnery.git', ref: '86b4fb4fa46295ae8ba3d7bd3b2f9b57991ce236'
 end
 
 # for travis deployment to heroku
@@ -19,7 +19,7 @@ end
 
 group :development, :test do
   gem 'heroku-headless', github: 'learnery/heroku-headless'
-  gem 'learnerydeploy',  github: 'learnery/deployment'
+  gem 'learnerydeploy', :git => 'git://github.com/learnery/deployment.git', ref: '270fcb95ddcab0902a7b68972f637a4944cb527e'
 end
 group :production do #heroku
   # to enable static asset serving for rails4 on heroku
