@@ -1,4 +1,7 @@
- source 'https://rubygems.org'
+source 'https://rubygems.org'
+
+# heroku wants this
+ruby '2.0.0'
 
 # dependency to learnery
 # uses local learnery if LEARNERY_LOCAL is set, e.g. with
