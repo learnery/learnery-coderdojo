@@ -15,7 +15,7 @@
 /log/*.log
 /tmp
 # ignore the rvm version files, as we
-# want an easy entry for new developers
+# want an e asy entry for new developers
 .ruby-version
 .ruby-gemset
 
