@@ -5,6 +5,7 @@ rvm:
 script:
 - rake
 after_success:
+- rake learnery:version
 - rake learnery:deploy["learnery-staging-coderdojo"]
 env:
   global:
